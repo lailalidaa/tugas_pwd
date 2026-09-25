@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Laila A12.2025.07333</title>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <h1>PORTOFOLIO LAILA</h1>
+            <h3>Program Studi Sistem Informasi - Universitas Dian Nuswantoro</h3>
+            <hr size="3" color="black" width="100%">
+        </center>
+    </header>
+
+    <nav>
+        <center>
+            <a href="#profil">Profil Saya</a> |
+            <a href="#pendidikan">Riwayat Pendidikan</a> |
+            <a href="#keahlian">Keahlian & Hobi</a> |
+            <a href="#proyek">Proyek Terkait</a> |
+            <a href="#kontak">Kontak</a>
+        </center>
+    </nav>
+
+    <hr size="1" color="blue" width="100%">
+
+    <!-- Bagian Profil -->
+    <section id="profil">
+
+        <h2>A. Profil Saya</h2>
+
+        <!-- Gambar dengan atribut HTML bawaan -->
+        <img src="../images/sopia.webp"
+             alt="Foto Laila"
+             width="150"
+             height="180"
+             align="left"
+             hspace="20">
+
+        <p>
+            Halo! Nama saya Laila. Saya adalah mahasiswa aktif Program Studi
+            Sistem Informasi di Fakultas Ilmu Komputer. Saya memiliki ketertarikan
+            yang besar dalam bidang pengembangan aplikasi web, perancangan basis data,
+            serta analisis sistem informasi. Saya senang mempelajari teknologi baru
+            yang dapat membantu menyelesaikan berbagai permasalahan di bidang teknologi
+            informasi.
+        </p>
+
+        <p>
+            Selain itu, saya juga tertarik untuk mengembangkan kemampuan dalam
+            pemrograman dan pembuatan sistem yang mudah digunakan. Selama menjadi
+            mahasiswa, saya terus berusaha meningkatkan pengetahuan dan keterampilan
+            melalui berbagai tugas dan proyek perkuliahan.
+        </p>
+
+        <br clear="all">
+
+    </section>
+
+    <br>
+
+    <!-- Bagian Pendidikan -->
+    <section id="pendidikan">
+
+        <h2>B. Riwayat Pendidikan</h2>
+
+        <table border="1" cellpadding="8" cellspacing="0" width="100%">
+
+            <tr bgcolor="#cccccc">
+                <th>Tingkat Pendidikan</th>
+                <th>Nama Instansi / Sekolah</th>
+                <th>Tahun</th>
+                <th>Keterangan</th>
+            </tr>
+
+            <tr>
+                <td>Sekolah Menengah Atas (SMA)</td>
+                <td>SMA Paris</td>
+                <td>2022 - 2025</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td>Perguruan Tinggi (S1)</td>
+                <td>
+                    <a href="https://www.dinus.ac.id" target="_blank">
+                        Universitas Dian Nuswantoro
+                    </a>
+                </td>
+                <td>2025 - Sekarang</td>
+                <td>Sistem Informasi</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <br>
+
+    <!-- Bagian Keahlian & Hobi -->
+    <section id="keahlian">
+
+        <h2>C. Keahlian & Hobi</h2>
+
+        <h3>1. Keahlian Utama</h3>
+
+        <ul>
+            <li>Pemrograman Web Dasar (HTML, PHP)</li>
+            <li>Pengelolaan Database MySQL</li>
+            <li>Pemodelan Sistem (DFD & ERD)</li>
+        </ul>
+
+        <h3>2. Hobi & Minat</h3>
+
+        <ol>
+            <li>
+                Membaca dokumentasi di
+                <a href="https://www.w3schools.com" target="_blank">
+                    W3Schools
+                </a>
+            </li>
+            <li>Eksplorasi perangkat lunak/website</li>
+            <li>Menulis</li>
+        </ol>
+
+    </section>
+
+    <br>
+
+    <!-- Bagian Proyek -->
+    <section id="proyek">
+
+        <h2>D. Proyek & Aktivitas Akademik</h2>
+
+        <article>
+
+            <h3>Tugas Pemrograman Web 1</h3>
+
+            <p>
+                Proyek ini adalah pembuatan halaman profil dan form interaktif
+                menggunakan struktur elemen semantik HTML, tabel terstruktur,
+                dan beberapa elemen input form.
+            </p>
+
+        </article>
+
+        <!-- Elemen Aside -->
+        <aside>
+
+            <hr>
+
+            <p>
+                <b>Catatan Kampus:</b>
+                Informasi jadwal perkuliahan dan kurikulum dapat dilihat di portal
+                <a href="https://mhs.dinus.ac.id" target="_blank">
+                    Siadin Udinus
+                </a>.
+            </p>
+
+            <hr>
+
+        </aside>
+
+    </section>
+
+    <!-- Bagian Form Kontak -->
+    <section id="kontak">
+
+        <h2>E. Form Kontak Pengunjung</h2>
+
+        <p>Silakan isi form di bawah ini untuk mengirimkan pesan:</p>
+
+        <!-- Form murni HTML -->
+        <form action="simpan.php" method="post">
+
+            <table border="0" cellpadding="5">
+
+                <tr>
+                    <td>
+                        <label for="fnama">Nama Lengkap</label>
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+                        <input type="text"
+                               id="fnama"
+                               name="fnama"
+                               size="30"
+                               required>
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    <label for="ffile">Pilih File</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="file" id="ffile" name="ffile">
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <label for="femail">Email</label>
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+                        <input type="email"
+                               id="femail"
+                               name="femail"
+                               size="30"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Kelamin</td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <input type="radio"
+                               id="pria"
+                               name="fjkel"
+                               value="Pria">
+
+                        <label for="pria">Pria</label>
+
+                        <input type="radio"
+                               id="wanita"
+                               name="fjkel"
+                               value="Wanita">
+
+                        <label for="wanita">Wanita</label>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fprodi">Program Studi</label>
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <select id="fprodi" name="fprodi">
+
+                            <option value="SI">
+                                Sistem Informasi S1
+                            </option>
+
+                            <option value="TI">
+                                Teknik Informatika S1
+                            </option>
+
+                            <option value="DKV">
+                                Desain Komunikasi Visual S1
+                            </option>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Hobi / Minat</td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <input type="checkbox"
+                               id="coding"
+                               name="fhobi[]"
+                               value="Coding">
+
+                        <label for="coding">Coding</label>
+
+                        <input type="checkbox"
+                               id="reading"
+                               name="fhobi[]"
+                               value="Membaca">
+
+                        <label for="reading">Membaca</label>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fpesan">Pesan</label>
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <textarea id="fpesan"
+                                  name="fpesan"
+                                  rows="4"
+                                  cols="32"></textarea>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+
+                    <td></td>
+
+                    <td>
+
+                        <input type="submit" value="Kirim Pesan">
+
+                        <input type="reset" value="Batal">
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </section>
+
+    <br>
+
+    <hr size="1" color="black">
+
+    <!-- Footer -->
+    <footer>
+
+        <center>
+
+            <p>
+                &copy; 2026 Laila -
+                Pemrograman Web Sistem Informasi
+                Universitas Dian Nuswantoro
+            </p>
+
+        </center>
+
+    </footer>
+
+</body>
+
+</html>
